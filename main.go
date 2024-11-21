@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"regexp"
+
 	"github.com/pdfcpu/pdfcpu/pkg/api"
 	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/spf13/viper"
@@ -11,9 +12,6 @@ import (
 
 
 func main() {
-	println("Tamponey v0.1")
-
-
 	// Get the stamp template and configuration from the configuration file
 	configDir, err := os.UserConfigDir()
 	if err != nil {
