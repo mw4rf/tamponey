@@ -42,7 +42,7 @@ This configuration file defines stamp.template and stamp.configuration.
 ``` yaml
 # Exemple
 stamp:
-    template: "Cabinet Trucmuche\nAvocats\Pièce n°%s\n"
-    configuration: "pos: tr, offset: -20 -20, aligntext: c, scalef: 0.5 abs, ma:5, bo:3 round #b30000, c:#b30000, bgc:#ffffff, rot:0"
+    template: "Cabinet Trucmuche\nAvocats\n\nPièce n°%s\n"
+    configuration: "pos: tr, offset: -40 -40, opacity: 0.7, aligntext: c, scalef: 0.5 abs, ma:5, bo:3 round #b30000, c:#b30000, bgc:#ffffff, rot:0"
 ```
 
