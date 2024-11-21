@@ -17,6 +17,7 @@ Ce fichier de configuration définit `stamp.template` et `stamp.configuration`.
 `stamp.template` est un modèle de texte avec un emplacement pour le numéro à ajouter identifié par `%s`. Des sauts de ligne peuvent être ajoutés avec `\n`.
 
 `stamp.configuration` répond à la syntaxe de pdfcpu, disponible à l'adresse suivante: https://pdfcpu.io/core/watermark
+
 ---
 
 Adds sequential stamps to the first page of all PDF files in the folder provided as an argument or, if none is provided, in the current folder.
