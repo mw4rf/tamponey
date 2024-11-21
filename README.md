@@ -43,6 +43,6 @@ This configuration file defines stamp.template and stamp.configuration.
 # Exemple
 stamp:
     template: "Cabinet Trucmuche\nAvocats\Pièce n°%s\n"
-    configuration: "pos: tr, aligntext: c, scalef: 0.5 abs, ma:5, bo:3 round #b30000, c:#b30000, bgc:#ffffff, rot:0"
+    configuration: "pos: tr, offset: -20 -20, aligntext: c, scalef: 0.5 abs, ma:5, bo:3 round #b30000, c:#b30000, bgc:#ffffff, rot:0"
 ```
 
